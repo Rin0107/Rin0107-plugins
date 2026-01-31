@@ -1,0 +1,28 @@
+{
+  "name": "Rin0107-plugins",
+  "owner": {
+    "name": "Rin0107"
+  },
+  "metadata": {
+    "description": "Rin0107's Claude Code plugin marketplace",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "pr",
+      "source": "./plugins/pr",
+      "description": "PR skills for Claude Code",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rin0107"
+      },
+      "category": "git",
+      "tags": [
+        "pr",
+        "pull-request",
+        "github"
+      ]
+    }
+  ]
+}
