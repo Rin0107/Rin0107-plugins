@@ -1,0 +1,5 @@
+{
+  "name": "spec-omakase",
+  "description": "Automated spec-driven development orchestrator for Claude Code",
+  "version": "1.0.0"
+}

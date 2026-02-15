@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  pull_request:
+
+jobs:
+  validate-plugin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install Claude CLI
+        run: curl -fsSL https://claude.ai/install.sh | bash
+
+      - name: Validate Plugin
+        run: claude plugin validate .
