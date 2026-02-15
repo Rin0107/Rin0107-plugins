@@ -23,6 +23,22 @@
         "pull-request",
         "github"
       ]
+    },
+    {
+      "name": "spec-omakase",
+      "source": "./plugins/spec-omakase",
+      "description": "Automated spec-driven development orchestrator for Claude Code",
+      "version": "1.0.0",
+      "author": {
+        "name": "Rin0107"
+      },
+      "category": "development",
+      "tags": [
+        "spec-driven",
+        "orchestration",
+        "automation",
+        "cc-sdd"
+      ]
     }
   ]
 }
